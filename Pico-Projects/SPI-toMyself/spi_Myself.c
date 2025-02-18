@@ -50,7 +50,9 @@ void core1_entry() {
 int main() {
     // Initialize UART for debugging
     stdio_init_all();
-
+    const uint LED_PIN = 25;
+    gpio_init(LED_PIN);
+    gpio_set_dir(LED_PIN, GPIO_OUT);
     // Launch core 1 for SPI slave functionality
     multicore_launch_core1(core1_entry);
 
@@ -73,7 +75,11 @@ int main() {
         spi_write_blocking(MASTER_SPI, &data_to_send, 1);  // Write 1 byte
         spi_read_blocking(MASTER_SPI, 0, &received_data, 1);  // Read 1 byte
         gpio_put(SPI_CS, 1);  // CS = 1 (inactive)
-
+        if(received_data == 20){
+            gpio_put(LED_PIN, 1);
+        }else{
+            gpio_put(LED_PIN, 0);
+        }
         printf("Sent data: %d, Received data: %d\n", data_to_send, received_data);
 
         // Update data to send for next iteration (for example, incrementing)
