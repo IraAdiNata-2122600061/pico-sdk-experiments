@@ -4,19 +4,18 @@
 
 // Pin definitions for Master
 #define MASTER_SPI    spi0
-#define SPI_BAUDRATE  50000  // 500 kHz
-#define SPI_CS        1       // CS pin (GP1)
-#define SPI_CLK       2       // Clock pin (GP2)
-#define SPI_MISO      0       // MISO pin (GP0)
-#define SPI_MOSI      3       // MOSI pin (GP3)
+#define SPI_BAUDRATE  50000  // 50 kHz
+#define SPI_CS        1      // CS pin (GP1)
+#define SPI_CLK       2      // Clock pin (GP2)
+#define SPI_MISO      0      // MISO pin (GP0)
+#define SPI_MOSI      3      // MOSI pin (GP3)
 
 // Pin definitions for Slave
 #define SLAVE_SPI     spi1
-#define SPI_BAUDRATE  50000  // 500 kHz
-#define SLAVE_CS      9       // CS pin (GP9)
-#define SLAVE_CLK     10      // Clock pin (GP10)
-#define SLAVE_MISO    11      // MISO pin (GP11)
-#define SLAVE_MOSI    8       // MOSI pin (GP8)
+#define SLAVE_CS      9      // CS pin (GP9)
+#define SLAVE_CLK     10     // Clock pin (GP10)
+#define SLAVE_MISO    11     // MISO pin (GP11)
+#define SLAVE_MOSI    8      // MOSI pin (GP8)
 
 void core1_entry() {
     // Initialize SPI Slave
@@ -30,19 +29,17 @@ void core1_entry() {
     gpio_init(SLAVE_CS);
     gpio_set_dir(SLAVE_CS, GPIO_IN);
 
-    uint8_t received_data;
-    uint8_t data_to_send = 20;  // Slave will send 20
+    uint8_t received_data[8];
+    uint8_t data_to_send[8] = {20, 21, 22, 23, 24, 25, 26, 27};  // Data yang dikirim oleh Slave
 
-    // Continuous loop for receiving and sending data
     while (1) {
-        if (!gpio_get(SLAVE_CS)) {  // Check if CS is active (low)
-            // Data is being transmitted
-            spi_read_blocking(SLAVE_SPI, 0, &received_data, 1);  // Read 1 byte from Master
-
-            // After receiving, send the response (20)
-            spi_write_blocking(SLAVE_SPI, &data_to_send, 1);  // Send 1 byte to Master
-
-            printf("Received data: %d, Sent data: %d\n", received_data, data_to_send);
+        if (!gpio_get(SLAVE_CS)) {  // CS aktif (low)
+            spi_write_read_blocking(SLAVE_SPI, data_to_send, received_data, 8); // Full duplex 8 byte
+            printf("Slave received: ");
+            for (int i = 0; i < 8; i++) {
+                printf("%d ", received_data[i]);
+            }
+            printf("\n");
         }
     }
 }
@@ -53,6 +50,7 @@ int main() {
     const uint LED_PIN = 25;
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
+
     // Launch core 1 for SPI slave functionality
     multicore_launch_core1(core1_entry);
 
@@ -64,30 +62,38 @@ int main() {
     gpio_set_function(SPI_CS, GPIO_FUNC_SPI);
 
     // Set the CS pin to be active low
+    gpio_init(SPI_CS);
+    gpio_set_dir(SPI_CS, GPIO_OUT);
     gpio_put(SPI_CS, 1);  // CS = 1 (inactive)
 
-    uint8_t data_to_send = 10;
-    uint8_t received_data;
+    uint8_t data_to_send[8] = {10, 11, 12, 13, 14, 15, 16, 17};
+    uint8_t received_data[8];
 
-    // Continuous loop for sending and receiving data
     while (1) {
         gpio_put(SPI_CS, 0);  // CS = 0 (active)
-        spi_write_blocking(MASTER_SPI, &data_to_send, 1);  // Write 1 byte
-        spi_read_blocking(MASTER_SPI, 0, &received_data, 1);  // Read 1 byte
+        
+        spi_write_read_blocking(MASTER_SPI, data_to_send, received_data, 8); // Full duplex 8 byte
+
         gpio_put(SPI_CS, 1);  // CS = 1 (inactive)
-        if(received_data == 20){
+
+        printf("Master Sent: ");
+        for (int i = 0; i < 8; i++) {
+            printf("%d ", data_to_send[i]);
+        }
+        printf("\nMaster Received: ");
+        for (int i = 0; i < 8; i++) {
+            printf("%d ", received_data[i]);
+        }
+        printf("\n");
+
+        if (received_data[0] == 20) {
             gpio_put(LED_PIN, 1);
-        }else{
+        } else {
             gpio_put(LED_PIN, 0);
         }
-        printf("Sent data: %d, Received data: %d\n", data_to_send, received_data);
 
-        // Update data to send for next iteration (for example, incrementing)
-        // data_to_send++;
-
-        sleep_ms(100);  // Sleep to avoid flooding the terminal with data
+        sleep_ms(500);  // Delay agar output lebih mudah dibaca
     }
 
     return 0;
 }
-
