@@ -29,16 +29,16 @@ void core1_entry() {
     gpio_init(SLAVE_CS);
     gpio_set_dir(SLAVE_CS, GPIO_IN);
 
-    uint8_t received_data[8];
-    uint8_t data_to_send[8] = {20, 21, 22, 23, 24, 25, 26, 27};  // Data yang dikirim oleh Slave
+    uint8_t received_data;
+    uint8_t data_to_send = 241;  // Data yang dikirim oleh Slave
 
     while (1) {
         if (!gpio_get(SLAVE_CS)) {  // CS aktif (low)
-            spi_write_read_blocking(SLAVE_SPI, data_to_send, received_data, 8); // Full duplex 8 byte
+            spi_write_read_blocking(SLAVE_SPI, &data_to_send, &received_data, 1); // Full duplex 8 byte
             printf("Slave received: ");
-            for (int i = 0; i < 8; i++) {
-                printf("%d ", received_data[i]);
-            }
+            // for (int i = 0; i < 8; i++) {
+            //     printf("%d ", received_data[i]);
+            // }
             printf("\n");
         }
     }
@@ -66,27 +66,27 @@ int main() {
     gpio_set_dir(SPI_CS, GPIO_OUT);
     gpio_put(SPI_CS, 1);  // CS = 1 (inactive)
 
-    uint8_t data_to_send[8] = {10, 11, 12, 13, 14, 15, 16, 17};
-    uint8_t received_data[8];
+    uint8_t data_to_send = 17;
+    uint8_t received_data;
 
     while (1) {
         gpio_put(SPI_CS, 0);  // CS = 0 (active)
         
-        spi_write_read_blocking(MASTER_SPI, data_to_send, received_data, 8); // Full duplex 8 byte
+        spi_write_read_blocking(MASTER_SPI, &data_to_send, &received_data, 1); // Full duplex 8 byte
 
         gpio_put(SPI_CS, 1);  // CS = 1 (inactive)
 
         printf("Master Sent: ");
-        for (int i = 0; i < 8; i++) {
-            printf("%d ", data_to_send[i]);
-        }
-        printf("\nMaster Received: ");
-        for (int i = 0; i < 8; i++) {
-            printf("%d ", received_data[i]);
-        }
+        // for (int i = 0; i < 8; i++) {
+        //     printf("%d ", data_to_send[i]);
+        // }
+        // printf("\nMaster Received: ");
+        // for (int i = 0; i < 8; i++) {
+        //     printf("%d ", received_data[i]);
+        // }
         printf("\n");
 
-        if (received_data[0] == 20) {
+        if (received_data == 241) {
             gpio_put(LED_PIN, 1);
         } else {
             gpio_put(LED_PIN, 0);
