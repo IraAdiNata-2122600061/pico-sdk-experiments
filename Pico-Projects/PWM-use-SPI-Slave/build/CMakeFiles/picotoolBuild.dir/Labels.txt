@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/PWM-use-SPI-Slave/build/CMakeFiles/picotoolBuild
+/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/PWM-use-SPI-Slave/build/CMakeFiles/picotoolBuild.rule
+/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/PWM-use-SPI-Slave/build/CMakeFiles/picotoolBuild-complete.rule
+/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/PWM-use-SPI-Slave/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/PWM-use-SPI-Slave/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/PWM-use-SPI-Slave/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/PWM-use-SPI-Slave/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/PWM-use-SPI-Slave/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/PWM-use-SPI-Slave/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/PWM-use-SPI-Slave/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/PWM-use-SPI-Slave/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule

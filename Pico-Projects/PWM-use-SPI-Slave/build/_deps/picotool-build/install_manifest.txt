@@ -1,0 +1,5 @@
+/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/PWM-use-SPI-Slave/build/_deps/picotool/picotool
+/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/PWM-use-SPI-Slave/build/_deps/picotool/picotoolTargets.cmake
+/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/PWM-use-SPI-Slave/build/_deps/picotool/picotoolTargets-release.cmake
+/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/PWM-use-SPI-Slave/build/_deps/picotool/picotoolConfig.cmake
+/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/PWM-use-SPI-Slave/build/_deps/picotool/picotoolConfigVersion.cmake
