@@ -20,6 +20,10 @@
 void core1_entry() {
     // Initialize SPI Slave
     spi_init(SLAVE_SPI, SPI_BAUDRATE);
+    
+    // Atur SPI Mode 2 (CPOL = 1, CPHA = 0)
+    spi_set_format(SLAVE_SPI, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
+    
     gpio_set_function(SLAVE_CLK, GPIO_FUNC_SPI);
     gpio_set_function(SLAVE_MISO, GPIO_FUNC_SPI);
     gpio_set_function(SLAVE_MOSI, GPIO_FUNC_SPI);
@@ -34,12 +38,8 @@ void core1_entry() {
 
     while (1) {
         if (!gpio_get(SLAVE_CS)) {  // CS aktif (low)
-            spi_write_read_blocking(SLAVE_SPI, &data_to_send, &received_data, 1); // Full duplex 8 byte
-            printf("Slave received: ");
-            // for (int i = 0; i < 8; i++) {
-            //     printf("%d ", received_data[i]);
-            // }
-            printf("\n");
+            spi_write_read_blocking(SLAVE_SPI, &data_to_send, &received_data, 1);
+            printf("Slave received: %d\n", received_data);
         }
     }
 }
@@ -56,6 +56,10 @@ int main() {
 
     // Initialize SPI Master
     spi_init(MASTER_SPI, SPI_BAUDRATE);
+    
+    // Atur SPI Mode 2 (CPOL = 1, CPHA = 0)
+    spi_set_format(MASTER_SPI, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
+    
     gpio_set_function(SPI_CLK, GPIO_FUNC_SPI);
     gpio_set_function(SPI_MISO, GPIO_FUNC_SPI);
     gpio_set_function(SPI_MOSI, GPIO_FUNC_SPI);
@@ -72,19 +76,12 @@ int main() {
     while (1) {
         gpio_put(SPI_CS, 0);  // CS = 0 (active)
         
-        spi_write_read_blocking(MASTER_SPI, &data_to_send, &received_data, 1); // Full duplex 8 byte
+        spi_write_read_blocking(MASTER_SPI, &data_to_send, &received_data, 1);
 
         gpio_put(SPI_CS, 1);  // CS = 1 (inactive)
 
-        printf("Master Sent: ");
-        // for (int i = 0; i < 8; i++) {
-        //     printf("%d ", data_to_send[i]);
-        // }
-        // printf("\nMaster Received: ");
-        // for (int i = 0; i < 8; i++) {
-        //     printf("%d ", received_data[i]);
-        // }
-        printf("\n");
+        printf("Master Sent: %d\n", data_to_send);
+        printf("Master Received: %d\n", received_data);
 
         if (received_data == 241) {
             gpio_put(LED_PIN, 1);
