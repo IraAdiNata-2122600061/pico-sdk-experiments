@@ -568,6 +568,8 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3.11
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;11;32;;;/usr/lib/python3.11;/usr/lib/python3.11;/usr/lib/python3.11/site-packages;/usr/lib/python3.11/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=9706960aa2a868136534c4a00c8f3e22
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 

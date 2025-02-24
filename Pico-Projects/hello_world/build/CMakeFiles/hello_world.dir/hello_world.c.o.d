@@ -64,4 +64,4 @@ CMakeFiles/hello_world.dir/hello_world.c.o: \
  /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
  /home/adinata26/PICO/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /home/adinata26/PICO/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
- /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+ /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h

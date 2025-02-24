@@ -2438,7 +2438,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0x4320
+.text           0x0000000010000100     0x4388
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
@@ -2501,358 +2501,359 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x0000000010000288       0x98 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
  .text.core1_entry
-                0x0000000010000320       0x74 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
+                0x0000000010000320       0xa4 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
                 0x0000000010000320                core1_entry
  .text.startup.main
-                0x0000000010000394       0xb4 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
-                0x0000000010000394                main
+                0x00000000100003c4       0xe8 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
+                0x00000000100003c4                main
  .text.gpio_set_function
-                0x0000000010000448       0x34 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
-                0x0000000010000448                gpio_set_function
+                0x00000000100004ac       0x34 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+                0x00000000100004ac                gpio_set_function
  .text.gpio_init
-                0x000000001000047c       0x40 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
-                0x000000001000047c                gpio_init
- .text.panic    0x00000000100004bc       0x30 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
-                0x00000000100004bc                panic
+                0x00000000100004e0       0x40 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+                0x00000000100004e0                gpio_init
+ .text.panic    0x0000000010000520       0x30 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+                0x0000000010000520                panic
  .text.hw_claim_or_assert
-                0x00000000100004ec       0x48 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/hardware_claim/claim.c.o
-                0x00000000100004ec                hw_claim_or_assert
+                0x0000000010000550       0x48 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/hardware_claim/claim.c.o
+                0x0000000010000550                hw_claim_or_assert
  .text.next_striped_spin_lock_num
-                0x0000000010000534       0x18 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
-                0x0000000010000534                next_striped_spin_lock_num
+                0x0000000010000598       0x18 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+                0x0000000010000598                next_striped_spin_lock_num
  .text.spin_locks_reset
-                0x000000001000054c       0x1c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
-                0x000000001000054c                spin_locks_reset
+                0x00000000100005b0       0x1c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+                0x00000000100005b0                spin_locks_reset
  .text.runtime_init_per_core_irq_priorities
-                0x0000000010000568       0x24 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x0000000010000568                runtime_init_per_core_irq_priorities
+                0x00000000100005cc       0x24 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x00000000100005cc                runtime_init_per_core_irq_priorities
  .text.irq_set_enabled
-                0x000000001000058c       0x24 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x000000001000058c                irq_set_enabled
+                0x00000000100005f0       0x24 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x00000000100005f0                irq_set_enabled
  .text.irq_is_enabled
-                0x00000000100005b0       0x18 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x00000000100005b0                irq_is_enabled
+                0x0000000010000614       0x18 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x0000000010000614                irq_is_enabled
  .text.irq_set_exclusive_handler
-                0x00000000100005c8       0x54 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x00000000100005c8                irq_set_exclusive_handler
+                0x000000001000062c       0x54 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x000000001000062c                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x000000001000061c      0x1c4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x000000001000061c                irq_remove_handler
+                0x0000000010000680      0x1c4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x0000000010000680                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x00000000100007e0       0xb4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x00000000100007e0                irq_add_tail_to_free_list
+                0x0000000010000844       0xb4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x0000000010000844                irq_add_tail_to_free_list
  .text.lock_init
-                0x0000000010000894       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/lock_core.c.o
-                0x0000000010000894                lock_init
+                0x00000000100008f8       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/lock_core.c.o
+                0x00000000100008f8                lock_init
  .text.runtime_init_mutex
-                0x00000000100008a4       0x58 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
-                0x00000000100008a4                runtime_init_mutex
+                0x0000000010000908       0x58 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
+                0x0000000010000908                runtime_init_mutex
  .text.sleep_until_callback
-                0x00000000100008fc       0x30 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
+                0x0000000010000960       0x30 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
  .text.alarm_pool_irq_handler
-                0x000000001000092c      0x30c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
+                0x0000000010000990      0x30c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
  .text.runtime_init_default_alarm_pool
-                0x0000000010000c38       0xdc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
-                0x0000000010000c38                runtime_init_default_alarm_pool
+                0x0000000010000c9c       0xdc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
+                0x0000000010000c9c                runtime_init_default_alarm_pool
  .text.alarm_pool_add_alarm_at_force_in_context
-                0x0000000010000d14       0xa8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
-                0x0000000010000d14                alarm_pool_add_alarm_at_force_in_context
+                0x0000000010000d78       0xa8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
+                0x0000000010000d78                alarm_pool_add_alarm_at_force_in_context
  .text.alarm_pool_cancel_alarm
-                0x0000000010000dbc       0x7c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
-                0x0000000010000dbc                alarm_pool_cancel_alarm
+                0x0000000010000e20       0x7c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
+                0x0000000010000e20                alarm_pool_cancel_alarm
  .text.sleep_until
-                0x0000000010000e38       0xd0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
-                0x0000000010000e38                sleep_until
+                0x0000000010000e9c       0xd0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
+                0x0000000010000e9c                sleep_until
  .text.sleep_ms
-                0x0000000010000f08       0x34 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
-                0x0000000010000f08                sleep_ms
+                0x0000000010000f6c       0x34 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
+                0x0000000010000f6c                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x0000000010000f3c       0xe0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
-                0x0000000010000f3c                best_effort_wfe_or_timeout
+                0x0000000010000fa0       0xe0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
+                0x0000000010000fa0                best_effort_wfe_or_timeout
  .text.timer_hardware_alarm_claim
-                0x000000001000101c       0x14 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-                0x000000001000101c                timer_hardware_alarm_claim
+                0x0000000010001080       0x14 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x0000000010001080                timer_hardware_alarm_claim
  .text.timer_time_us_64
-                0x0000000010001030       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-                0x0000000010001030                timer_time_us_64
+                0x0000000010001094       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x0000000010001094                timer_time_us_64
  .text.time_us_64
-                0x0000000010001040       0x14 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-                0x0000000010001040                time_us_64
+                0x00000000100010a4       0x14 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x00000000100010a4                time_us_64
  .text.busy_wait_us
-                0x0000000010001054       0x54 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-                0x0000000010001054                busy_wait_us
+                0x00000000100010b8       0x54 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x00000000100010b8                busy_wait_us
  .text.busy_wait_until
-                0x00000000100010a8       0x20 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-                0x00000000100010a8                busy_wait_until
+                0x000000001000110c       0x20 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x000000001000110c                busy_wait_until
  .text.uart_init
-                0x00000000100010c8      0x11c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
-                0x00000000100010c8                uart_init
+                0x000000001000112c      0x11c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+                0x000000001000112c                uart_init
  .text.clock_configure_int_divider
-                0x00000000100011e4       0xf4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-                0x00000000100011e4                clock_configure_int_divider
+                0x0000000010001248       0xf4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+                0x0000000010001248                clock_configure_int_divider
  .text.clock_configure_undivided
-                0x00000000100012d8       0xe4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-                0x00000000100012d8                clock_configure_undivided
+                0x000000001000133c       0xe4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+                0x000000001000133c                clock_configure_undivided
  .text.clock_get_hz
-                0x00000000100013bc        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-                0x00000000100013bc                clock_get_hz
+                0x0000000010001420        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+                0x0000000010001420                clock_get_hz
  .text.pll_init
-                0x00000000100013c8       0xa0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
-                0x00000000100013c8                pll_init
+                0x000000001000142c       0xa0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+                0x000000001000142c                pll_init
  .text.tick_start
-                0x0000000010001468       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
-                0x0000000010001468                tick_start
+                0x00000000100014cc       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+                0x00000000100014cc                tick_start
  .text.rom_func_lookup
-                0x0000000010001478       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-                0x0000000010001478                rom_func_lookup
+                0x00000000100014dc       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+                0x00000000100014dc                rom_func_lookup
  .text.rom_data_lookup
-                0x0000000010001488       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-                0x0000000010001488                rom_data_lookup
+                0x00000000100014ec       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+                0x00000000100014ec                rom_data_lookup
  .text.rom_funcs_lookup
-                0x0000000010001498       0x3c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-                0x0000000010001498                rom_funcs_lookup
+                0x00000000100014fc       0x3c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+                0x00000000100014fc                rom_funcs_lookup
  .text.xosc_init
-                0x00000000100014d4       0x28 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
-                0x00000000100014d4                xosc_init
+                0x0000000010001538       0x28 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+                0x0000000010001538                xosc_init
  .text.first_per_core_initializer
-                0x00000000100014fc        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x0000000010001560        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
  .text.hard_assertion_failure
-                0x0000000010001500        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-                0x0000000010001500                hard_assertion_failure
+                0x0000000010001564        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x0000000010001564                hard_assertion_failure
  .text.runtime_run_initializers
-                0x000000001000150c       0x28 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-                0x000000001000150c                runtime_run_initializers
+                0x0000000010001570       0x28 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x0000000010001570                runtime_run_initializers
  .text.runtime_run_per_core_initializers
-                0x0000000010001534       0x28 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-                0x0000000010001534                runtime_run_per_core_initializers
+                0x0000000010001598       0x28 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x0000000010001598                runtime_run_per_core_initializers
  .text.runtime_init_early_resets
-                0x000000001000155c       0x2c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x000000001000155c                runtime_init_early_resets
+                0x00000000100015c0       0x2c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x00000000100015c0                runtime_init_early_resets
  .text.runtime_init_usb_power_down
-                0x0000000010001588       0x1c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x0000000010001588                runtime_init_usb_power_down
+                0x00000000100015ec       0x1c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x00000000100015ec                runtime_init_usb_power_down
  .text.runtime_init_post_clock_resets
-                0x00000000100015a4       0x20 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x00000000100015a4                runtime_init_post_clock_resets
+                0x0000000010001608       0x20 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x0000000010001608                runtime_init_post_clock_resets
  .text.runtime_init_rp2040_gpio_ie_disable
-                0x00000000100015c4       0x14 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x00000000100015c4                runtime_init_rp2040_gpio_ie_disable
+                0x0000000010001628       0x14 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x0000000010001628                runtime_init_rp2040_gpio_ie_disable
  .text.runtime_init_spin_locks_reset
-                0x00000000100015d8        0x8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x00000000100015d8                runtime_init_spin_locks_reset
+                0x000000001000163c        0x8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x000000001000163c                runtime_init_spin_locks_reset
  .text.runtime_init_install_ram_vector_table
-                0x00000000100015e0       0x1c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x00000000100015e0                runtime_init_install_ram_vector_table
+                0x0000000010001644       0x1c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x0000000010001644                runtime_init_install_ram_vector_table
  .text.runtime_init_clocks
-                0x00000000100015fc       0xd8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
-                0x00000000100015fc                runtime_init_clocks
- .text          0x00000000100016d4       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+                0x0000000010001660       0xd8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+                0x0000000010001660                runtime_init_clocks
+ .text          0x0000000010001738       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
  .text.__wrap___aeabi_idiv
-                0x00000000100016e4       0x50 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
-                0x00000000100016e4                __wrap___aeabi_idivmod
-                0x00000000100016e4                divmod_s32s32
-                0x00000000100016e4                div_s32s32
-                0x00000000100016e4                __wrap___aeabi_idiv
-                0x00000000100016ec                divmod_s32s32_unsafe
-                0x0000000010001718                divmod_s32s32_savestate
+                0x0000000010001748       0x50 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+                0x0000000010001748                __wrap___aeabi_idivmod
+                0x0000000010001748                divmod_s32s32
+                0x0000000010001748                div_s32s32
+                0x0000000010001748                __wrap___aeabi_idiv
+                0x0000000010001750                divmod_s32s32_unsafe
+                0x000000001000177c                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x0000000010001734       0x4c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
-                0x0000000010001734                __wrap___aeabi_uidiv
-                0x0000000010001734                __wrap___aeabi_uidivmod
-                0x0000000010001734                div_u32u32
-                0x0000000010001734                divmod_u32u32
-                0x000000001000173c                divmod_u32u32_unsafe
-                0x0000000010001764                divmod_u32u32_savestate
+                0x0000000010001798       0x4c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+                0x0000000010001798                __wrap___aeabi_uidiv
+                0x0000000010001798                __wrap___aeabi_uidivmod
+                0x0000000010001798                div_u32u32
+                0x0000000010001798                divmod_u32u32
+                0x00000000100017a0                divmod_u32u32_unsafe
+                0x00000000100017c8                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x0000000010001780      0x424 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
-                0x0000000010001780                div_s64s64
-                0x0000000010001780                divmod_s64s64
-                0x0000000010001780                __wrap___aeabi_ldivmod
-                0x00000000100017b0                div_u64u64
-                0x00000000100017b0                divmod_u64u64
-                0x00000000100017b0                __wrap___aeabi_uldivmod
-                0x00000000100017c0                divmod_u64u64_savestate
-                0x00000000100017e0                divmod_s64s64_unsafe
-                0x0000000010001868                divmod_u64u64_unsafe
+                0x00000000100017e4      0x424 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+                0x00000000100017e4                div_s64s64
+                0x00000000100017e4                divmod_s64s64
+                0x00000000100017e4                __wrap___aeabi_ldivmod
+                0x0000000010001814                div_u64u64
+                0x0000000010001814                divmod_u64u64
+                0x0000000010001814                __wrap___aeabi_uldivmod
+                0x0000000010001824                divmod_u64u64_savestate
+                0x0000000010001844                divmod_s64s64_unsafe
+                0x00000000100018cc                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x0000000010001ba4       0x80 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
-                0x0000000010001ba4                __wrap___aeabi_drsub
-                0x0000000010001baa                __wrap___aeabi_dsub
-                0x0000000010001bbc                __wrap___aeabi_dadd
-                0x0000000010001bce                __wrap___aeabi_ddiv
-                0x0000000010001c0a                __wrap___aeabi_dmul
+                0x0000000010001c08       0x80 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+                0x0000000010001c08                __wrap___aeabi_drsub
+                0x0000000010001c0e                __wrap___aeabi_dsub
+                0x0000000010001c20                __wrap___aeabi_dadd
+                0x0000000010001c32                __wrap___aeabi_ddiv
+                0x0000000010001c6e                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x0000000010001c24       0x6c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
-                0x0000000010001c24                __wrap___aeabi_cdrcmple
-                0x0000000010001c34                __wrap___aeabi_cdcmple
-                0x0000000010001c34                __wrap___aeabi_cdcmpeq
+                0x0000000010001c88       0x6c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+                0x0000000010001c88                __wrap___aeabi_cdrcmple
+                0x0000000010001c98                __wrap___aeabi_cdcmple
+                0x0000000010001c98                __wrap___aeabi_cdcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x0000000010001c90        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
-                0x0000000010001c90                __wrap___aeabi_dcmplt
+                0x0000000010001cf4        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+                0x0000000010001cf4                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x0000000010001c9c       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
-                0x0000000010001c9c                __wrap___aeabi_dcmple
+                0x0000000010001d00       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+                0x0000000010001d00                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x0000000010001cac       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
-                0x0000000010001cac                __wrap___aeabi_dcmpge
+                0x0000000010001d10       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+                0x0000000010001d10                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x0000000010001cbc        0xa CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
-                0x0000000010001cbc                __wrap___aeabi_dcmpgt
+                0x0000000010001d20        0xa CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+                0x0000000010001d20                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x0000000010001cc6       0x18 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
-                0x0000000010001cc6                __wrap___aeabi_dcmpun
- *fill*         0x0000000010001cde        0x2 
+                0x0000000010001d2a       0x18 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+                0x0000000010001d2a                __wrap___aeabi_dcmpun
+ *fill*         0x0000000010001d42        0x2 
  .text.__wrap___aeabi_i2d
-                0x0000000010001ce0       0x38 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
-                0x0000000010001ce0                __wrap___aeabi_ui2d
-                0x0000000010001ce8                __wrap___aeabi_i2d
+                0x0000000010001d44       0x38 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+                0x0000000010001d44                __wrap___aeabi_ui2d
+                0x0000000010001d4c                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x0000000010001d18       0x48 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
-                0x0000000010001d18                __wrap___aeabi_d2iz
-                0x0000000010001d18                double2int_z
+                0x0000000010001d7c       0x48 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+                0x0000000010001d7c                __wrap___aeabi_d2iz
+                0x0000000010001d7c                double2int_z
  .text.__wrap___aeabi_d2uiz
-                0x0000000010001d60       0x18 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
-                0x0000000010001d60                double2uint
-                0x0000000010001d60                __wrap___aeabi_d2uiz
+                0x0000000010001dc4       0x18 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+                0x0000000010001dc4                double2uint
+                0x0000000010001dc4                __wrap___aeabi_d2uiz
  .text.__aeabi_double_init
-                0x0000000010001d78       0xcc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
-                0x0000000010001d78                __aeabi_double_init
+                0x0000000010001ddc       0xcc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+                0x0000000010001ddc                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x0000000010001e44       0x2c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
-                0x0000000010001e44                double_table_shim_on_use_helper
+                0x0000000010001ea8       0x2c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+                0x0000000010001ea8                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x0000000010001e70       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
-                0x0000000010001e70                drsub_shim
-                0x0000000010001e76                dsub_shim
+                0x0000000010001ed4       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+                0x0000000010001ed4                drsub_shim
+                0x0000000010001eda                dsub_shim
  .text.dadd_shim
-                0x0000000010001e80      0x15c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
-                0x0000000010001e80                dadd_shim
+                0x0000000010001ee4      0x15c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+                0x0000000010001ee4                dadd_shim
  .text.dmul_shim
-                0x0000000010001fdc      0x15c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
-                0x0000000010001fdc                dmul_shim
+                0x0000000010002040      0x15c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+                0x0000000010002040                dmul_shim
  .text.ddiv_shim
-                0x0000000010002138      0x1b0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
-                0x0000000010002138                ddiv_shim
+                0x000000001000219c      0x1b0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+                0x000000001000219c                ddiv_shim
  .text.double2uint_shim
-                0x00000000100022e8        0xe CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
-                0x00000000100022e8                double2uint_shim
-                0x00000000100022ea                double2ufix_shim
- *fill*         0x00000000100022f6        0x2 
+                0x000000001000234c        0xe CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+                0x000000001000234c                double2uint_shim
+                0x000000001000234e                double2ufix_shim
+ *fill*         0x000000001000235a        0x2 
  .text.double2uint64_shim
-                0x00000000100022f8       0x70 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
-                0x00000000100022f8                double2uint64_shim
-                0x00000000100022fa                double2ufix64_shim
-                0x000000001000231a                d2fix_a
+                0x000000001000235c       0x70 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+                0x000000001000235c                double2uint64_shim
+                0x000000001000235e                double2ufix64_shim
+                0x000000001000237e                d2fix_a
  .text.dunpacks
-                0x0000000010002368       0x3c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
-                0x0000000010002368                dunpacks
+                0x00000000100023cc       0x3c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+                0x00000000100023cc                dunpacks
  .text.__aeabi_lmul
-                0x00000000100023a4       0x32 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-                0x00000000100023a4                __wrap___aeabi_lmul
- *fill*         0x00000000100023d6        0x2 
+                0x0000000010002408       0x32 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+                0x0000000010002408                __wrap___aeabi_lmul
+ *fill*         0x000000001000243a        0x2 
  .text.__aeabi_float_init
-                0x00000000100023d8       0x64 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
-                0x00000000100023d8                __aeabi_float_init
+                0x000000001000243c       0x64 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+                0x000000001000243c                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x000000001000243c       0x2c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
-                0x000000001000243c                float_table_shim_on_use_helper
- .text          0x0000000010002468       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-                0x0000000010002468                __aeabi_mem_init
- .text.memcpy   0x0000000010002478        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-                0x0000000010002478                __wrap___aeabi_memcpy
-                0x0000000010002478                __wrap_memcpy
+                0x00000000100024a0       0x2c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+                0x00000000100024a0                float_table_shim_on_use_helper
+ .text          0x00000000100024cc       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+                0x00000000100024cc                __aeabi_mem_init
+ .text.memcpy   0x00000000100024dc        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+                0x00000000100024dc                __wrap___aeabi_memcpy
+                0x00000000100024dc                __wrap_memcpy
  .text._out_null
-                0x0000000010002484        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x00000000100024e8        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .text._out_rev
-                0x0000000010002488       0xd0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x00000000100024ec       0xd0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .text._ntoa_format
-                0x0000000010002558      0x1d0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x00000000100025bc      0x1d0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .text._out_char
-                0x0000000010002728       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x000000001000278c       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .text._out_fct
-                0x0000000010002738       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .text._etoa    0x0000000010002748      0x478 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .text._ftoa    0x0000000010002bc0      0x3e0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x000000001000279c       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .text._etoa    0x00000000100027ac      0x478 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .text._ftoa    0x0000000010002c24      0x3e0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .text._vsnprintf
-                0x0000000010002fa0      0xb08 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x0000000010003004      0xb08 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .text.vfctprintf
-                0x0000000010003aa8       0x20 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
-                0x0000000010003aa8                vfctprintf
+                0x0000000010003b0c       0x20 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x0000000010003b0c                vfctprintf
  .text.weak_raw_vprintf
-                0x0000000010003ac8       0x30 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
-                0x0000000010003ac8                weak_raw_vprintf
- .text._exit    0x0000000010003af8        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
-                0x0000000010003af8                _exit
- .text.exit     0x0000000010003afc        0x8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
-                0x0000000010003afc                exit
+                0x0000000010003b2c       0x30 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x0000000010003b2c                weak_raw_vprintf
+ .text._exit    0x0000000010003b5c        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+                0x0000000010003b5c                _exit
+ .text.exit     0x0000000010003b60        0x8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+                0x0000000010003b60                exit
  .text.runtime_init
-                0x0000000010003b04       0x2c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
-                0x0000000010003b04                runtime_init
+                0x0000000010003b68       0x2c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+                0x0000000010003b68                runtime_init
  .text.stdio_out_chars_no_crlf
-                0x0000000010003b30       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x0000000010003b94       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .text.stdio_out_chars_crlf
-                0x0000000010003b40       0x94 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x0000000010003ba4       0x94 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .text.stdio_buffered_printer
-                0x0000000010003bd4       0x64 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x0000000010003c38       0x64 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .text.stdio_put_string
-                0x0000000010003c38      0x100 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-                0x0000000010003c38                stdio_put_string
+                0x0000000010003c9c      0x100 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x0000000010003c9c                stdio_put_string
  .text.stdio_set_driver_enabled
-                0x0000000010003d38       0x30 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-                0x0000000010003d38                stdio_set_driver_enabled
+                0x0000000010003d9c       0x30 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x0000000010003d9c                stdio_set_driver_enabled
  .text.stdio_init_all
-                0x0000000010003d68        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-                0x0000000010003d68                stdio_init_all
+                0x0000000010003dcc        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x0000000010003dcc                stdio_init_all
  .text.__wrap_putchar
-                0x0000000010003d74       0x98 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-                0x0000000010003d74                stdio_putchar
-                0x0000000010003d74                __wrap_putchar
+                0x0000000010003dd8       0x98 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x0000000010003dd8                stdio_putchar
+                0x0000000010003dd8                __wrap_putchar
  .text.__wrap_puts
-                0x0000000010003e0c       0x3c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-                0x0000000010003e0c                __wrap_puts
-                0x0000000010003e0c                stdio_puts
+                0x0000000010003e70       0x3c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x0000000010003e70                __wrap_puts
+                0x0000000010003e70                stdio_puts
  .text.__wrap_vprintf
-                0x0000000010003e48       0xd8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-                0x0000000010003e48                __wrap_vprintf
-                0x0000000010003e48                stdio_vprintf
+                0x0000000010003eac       0xd8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x0000000010003eac                __wrap_vprintf
+                0x0000000010003eac                stdio_vprintf
  .text.__wrap_printf
-                0x0000000010003f20       0x18 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-                0x0000000010003f20                stdio_printf
-                0x0000000010003f20                __wrap_printf
+                0x0000000010003f84       0x18 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x0000000010003f84                stdio_printf
+                0x0000000010003f84                __wrap_printf
  .text.stdio_uart_out_chars
-                0x0000000010003f38       0x4c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x0000000010003f9c       0x4c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  .text.stdio_uart_in_chars
-                0x0000000010003f84       0x84 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-                0x0000000010003f84                stdio_uart_in_chars
+                0x0000000010003fe8       0x84 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x0000000010003fe8                stdio_uart_in_chars
  .text.on_uart_rx
-                0x0000000010004008       0x28 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x000000001000406c       0x28 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  .text.stdio_uart_out_flush
-                0x0000000010004030       0x14 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x0000000010004094       0x14 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  .text.stdio_uart_set_chars_available_callback
-                0x0000000010004044       0x88 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x00000000100040a8       0x88 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  .text.stdio_uart_init
-                0x00000000100040cc       0x50 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-                0x00000000100040cc                stdio_uart_init
+                0x0000000010004130       0x50 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x0000000010004130                stdio_uart_init
  .text.core1_trampoline
-                0x000000001000411c        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+                0x0000000010004180        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
  .text.core1_wrapper
-                0x0000000010004120        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
-                0x0000000010004120                core1_wrapper
+                0x0000000010004184        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+                0x0000000010004184                core1_wrapper
  .text.multicore_launch_core1_raw
-                0x000000001000412c       0x84 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
-                0x000000001000412c                multicore_launch_core1_raw
+                0x0000000010004190       0x84 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+                0x0000000010004190                multicore_launch_core1_raw
  .text.multicore_launch_core1
-                0x00000000100041b0       0x4c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
-                0x00000000100041b0                multicore_launch_core1
+                0x0000000010004214       0x4c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+                0x0000000010004214                multicore_launch_core1
  .text.spi_init
-                0x00000000100041fc      0x128 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
-                0x00000000100041fc                spi_init
- .text          0x0000000010004324       0x68 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
-                0x0000000010004324                strlen
+                0x0000000010004260      0x128 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+                0x0000000010004260                spi_init
+ .text          0x0000000010004388       0x68 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+                0x0000000010004388                strlen
  *(.fini)
- .fini          0x000000001000438c        0x4 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o
-                0x000000001000438c                _fini
- .fini.__stub   0x0000000010004390       0x50 linker stubs
+ .fini          0x00000000100043f0        0x4 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o
+                0x00000000100043f0                _fini
+ *fill*         0x00000000100043f4        0x4 
+ .fini.__stub   0x00000000100043f8       0x50 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2863,175 +2864,173 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x00000000100043e0                . = ALIGN (0x4)
-                0x00000000100043e0                PROVIDE (__preinit_array_start = .)
+                0x0000000010004448                . = ALIGN (0x4)
+                0x0000000010004448                PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00100
-                0x00000000100043e0        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x00000000100043e0                __pre_init_runtime_init_early_resets
+                0x0000000010004448        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x0000000010004448                __pre_init_runtime_init_early_resets
  .preinit_array.00101
-                0x00000000100043e4        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x00000000100043e4                __pre_init_runtime_init_usb_power_down
+                0x000000001000444c        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x000000001000444c                __pre_init_runtime_init_usb_power_down
  .preinit_array.00275
-                0x00000000100043e8        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+                0x0000000010004450        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
  .preinit_array.00300
-                0x00000000100043ec        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+                0x0000000010004454        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
  .preinit_array.00350
-                0x00000000100043f0        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+                0x0000000010004458        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
  .preinit_array.00350
-                0x00000000100043f4        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+                0x000000001000445c        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
  .preinit_array.00500
-                0x00000000100043f8        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x00000000100043f8                __pre_init_runtime_init_clocks
+                0x0000000010004460        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x0000000010004460                __pre_init_runtime_init_clocks
  .preinit_array.00600
-                0x00000000100043fc        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x00000000100043fc                __pre_init_runtime_init_post_clock_resets
+                0x0000000010004464        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x0000000010004464                __pre_init_runtime_init_post_clock_resets
  .preinit_array.00700
-                0x0000000010004400        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x0000000010004400                __pre_init_runtime_init_rp2040_gpio_ie_disable
+                0x0000000010004468        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x0000000010004468                __pre_init_runtime_init_rp2040_gpio_ie_disable
  .preinit_array.01000
-                0x0000000010004404        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x0000000010004404                __pre_init_runtime_init_spin_locks_reset
+                0x000000001000446c        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x000000001000446c                __pre_init_runtime_init_spin_locks_reset
  .preinit_array.01100
-                0x0000000010004408        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
-                0x0000000010004408                __pre_init_runtime_init_mutex
+                0x0000000010004470        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
+                0x0000000010004470                __pre_init_runtime_init_mutex
  .preinit_array.10080
-                0x000000001000440c        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x000000001000440c                __pre_init_runtime_init_install_ram_vector_table
+                0x0000000010004474        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x0000000010004474                __pre_init_runtime_init_install_ram_vector_table
  .preinit_array.11000
-                0x0000000010004410        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
-                0x0000000010004410                __pre_init_runtime_init_default_alarm_pool
+                0x0000000010004478        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
+                0x0000000010004478                __pre_init_runtime_init_default_alarm_pool
  .preinit_array.YYYYY
-                0x0000000010004414        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-                0x0000000010004414                __pre_init_first_per_core_initializer
+                0x000000001000447c        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x000000001000447c                __pre_init_first_per_core_initializer
  .preinit_array.ZZZZZ.01200
-                0x0000000010004418        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x0000000010004418                __pre_init_runtime_init_per_core_irq_priorities
+                0x0000000010004480        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x0000000010004480                __pre_init_runtime_init_per_core_irq_priorities
  *(.preinit_array)
-                0x000000001000441c                PROVIDE (__preinit_array_end = .)
-                0x000000001000441c                . = ALIGN (0x4)
-                0x000000001000441c                PROVIDE (__init_array_start = .)
+                0x0000000010004484                PROVIDE (__preinit_array_end = .)
+                0x0000000010004484                . = ALIGN (0x4)
+                0x0000000010004484                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x000000001000441c        0x4 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010004420                PROVIDE (__init_array_end = .)
-                0x0000000010004420                . = ALIGN (0x4)
-                0x0000000010004420                PROVIDE (__fini_array_start = .)
+ .init_array    0x0000000010004484        0x4 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010004488                PROVIDE (__init_array_end = .)
+                0x0000000010004488                . = ALIGN (0x4)
+                0x0000000010004488                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
-                0x0000000010004420                PROVIDE (__fini_array_end = .)
+                0x0000000010004488                PROVIDE (__fini_array_end = .)
  *(.eh_frame*)
- .eh_frame      0x0000000010004420        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010004420                . = ALIGN (0x4)
+ .eh_frame      0x0000000010004488        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010004488                . = ALIGN (0x4)
 
-.glue_7         0x0000000010004420        0x0
- .glue_7        0x0000000010004420        0x0 linker stubs
+.glue_7         0x0000000010004488        0x0
+ .glue_7        0x0000000010004488        0x0 linker stubs
 
-.glue_7t        0x0000000010004420        0x0
- .glue_7t       0x0000000010004420        0x0 linker stubs
+.glue_7t        0x0000000010004488        0x0
+ .glue_7t       0x0000000010004488        0x0 linker stubs
 
-.vfp11_veneer   0x0000000010004420        0x0
- .vfp11_veneer  0x0000000010004420        0x0 linker stubs
+.vfp11_veneer   0x0000000010004488        0x0
+ .vfp11_veneer  0x0000000010004488        0x0 linker stubs
 
-.v4_bx          0x0000000010004420        0x0
- .v4_bx         0x0000000010004420        0x0 linker stubs
+.v4_bx          0x0000000010004488        0x0
+ .v4_bx         0x0000000010004488        0x0 linker stubs
 
-.iplt           0x0000000010004420        0x0
- .iplt          0x0000000010004420        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000010004488        0x0
+ .iplt          0x0000000010004488        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010004420      0x394
+.rodata         0x0000000010004488      0x3ac
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.core1_entry.str1.4
-                0x0000000010004420       0x11 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
- *fill*         0x0000000010004431        0x3 
+                0x0000000010004488       0x14 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
  .rodata.main.str1.4
-                0x0000000010004434        0xe CMakeFiles/spi_Myself.dir/spi_Myself.c.o
- *fill*         0x0000000010004442        0x2 
+                0x000000001000449c       0x29 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
+ *fill*         0x00000000100044c5        0x3 
  .rodata.panic.str1.4
-                0x0000000010004444       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- *fill*         0x0000000010004456        0x2 
+                0x00000000100044c8       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ *fill*         0x00000000100044da        0x2 
  .rodata.timer_hardware_alarm_claim.str1.4
-                0x0000000010004458       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- *fill*         0x000000001000447a        0x2 
+                0x00000000100044dc       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ *fill*         0x00000000100044fe        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x000000001000447c        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x0000000010004500        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
  .rodata.str1.4
-                0x0000000010004488       0x40 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x000000001000450c       0x40 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_26
-                0x00000000100044c8        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x000000001000454c        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_34
-                0x00000000100044d4        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x0000000010004558        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_42
-                0x00000000100044e0        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x0000000010004564        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_48
-                0x00000000100044ec        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x0000000010004570        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_54
-                0x00000000100044f8        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x000000001000457c        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_78
-                0x0000000010004504        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x0000000010004588        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_84
-                0x0000000010004510        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x0000000010004594        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata._ftoa.str1.4
-                0x000000001000451c       0x15 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- *fill*         0x0000000010004531        0x3 
+                0x00000000100045a0       0x15 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ *fill*         0x00000000100045b5        0x3 
  .rodata._vsnprintf
-                0x0000000010004534      0x1e0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- *fill*         0x0000000010004714        0x4 
+                0x00000000100045b8      0x1e0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .rodata.pow10.5457
-                0x0000000010004718       0x50 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x0000000010004798       0x50 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .rodata.crlf_str.6419
-                0x0000000010004768        0x2 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- *fill*         0x000000001000476a        0x2 
+                0x00000000100047e8        0x2 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ *fill*         0x00000000100047ea        0x2 
  .rodata.str1.4
-                0x000000001000476c       0x2c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x00000000100047ec       0x2c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  .rodata.__bi_45.5261
-                0x0000000010004798        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x0000000010004818        0xc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  .rodata.__bi_49.5265
-                0x00000000100047a4        0x8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x0000000010004824        0x8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  .rodata.__bi_50.5269
-                0x00000000100047ac        0x8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-                0x00000000100047b4                . = ALIGN (0x4)
+                0x000000001000482c        0x8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x0000000010004834                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x00000000100047b4                . = ALIGN (0x4)
+                0x0000000010004834                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000100047b4                __exidx_start = .
+                0x0000000010004834                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00000000100047b4                __exidx_end = .
-                0x00000000100047b4                . = ALIGN (0x4)
-                0x00000000100047b4                __binary_info_start = .
+                0x0000000010004834                __exidx_end = .
+                0x0000000010004834                . = ALIGN (0x4)
+                0x0000000010004834                __binary_info_start = .
 
-.binary_info    0x00000000100047b4       0x28
+.binary_info    0x0000000010004834       0x28
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr26
-                0x00000000100047b4        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x0000000010004834        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .binary_info.keep.__bi_ptr34
-                0x00000000100047b8        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x0000000010004838        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .binary_info.keep.__bi_ptr42
-                0x00000000100047bc        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x000000001000483c        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .binary_info.keep.__bi_ptr48
-                0x00000000100047c0        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x0000000010004840        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .binary_info.keep.__bi_ptr54
-                0x00000000100047c4        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x0000000010004844        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .binary_info.keep.__bi_ptr78
-                0x00000000100047c8        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x0000000010004848        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .binary_info.keep.__bi_ptr84
-                0x00000000100047cc        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x000000001000484c        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  *(.binary_info.*)
  .binary_info.__bi_ptr45
-                0x00000000100047d0        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x0000000010004850        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  .binary_info.__bi_ptr49
-                0x00000000100047d4        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x0000000010004854        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  .binary_info.__bi_ptr50
-                0x00000000100047d8        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-                0x00000000100047dc                __binary_info_end = .
+                0x0000000010004858        0x4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x000000001000485c                __binary_info_end = .
 
-.rel.dyn        0x00000000100047dc        0x0
- .rel.iplt      0x00000000100047dc        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x00000000100047dc                . = ALIGN (0x4)
+.rel.dyn        0x000000001000485c        0x0
+ .rel.iplt      0x000000001000485c        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x000000001000485c                . = ALIGN (0x4)
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -3045,7 +3044,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x00000000200000c0                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.data           0x00000000200000c0      0x218 load address 0x00000000100047dc
+.data           0x00000000200000c0      0x218 load address 0x000000001000485c
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -3102,23 +3101,23 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x00000000200002d8                . = ALIGN (0x4)
 
 .tm_clone_table
-                0x00000000200002d8        0x0 load address 0x00000000100049f4
+                0x00000000200002d8        0x0 load address 0x0000000010004a74
  .tm_clone_table
                 0x00000000200002d8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x00000000200002d8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x00000000200002d8        0x0 load address 0x00000000100049f4
+.igot.plt       0x00000000200002d8        0x0 load address 0x0000000010004a74
  .igot.plt      0x00000000200002d8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.tdata          0x00000000200002d8        0x0 load address 0x00000000100049f4
+.tdata          0x00000000200002d8        0x0 load address 0x0000000010004a74
                 0x00000000200002d8                . = ALIGN (0x4)
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x00000000200002d8                __tdata_end = .
                 0x00000000200002d8                PROVIDE (__data_end__ = .)
-                0x00000000100047dc                __etext = LOADADDR (.data)
+                0x000000001000485c                __etext = LOADADDR (.data)
 
-.tbss           0x00000000200002d8        0x0 load address 0x00000000100049f4
+.tbss           0x00000000200002d8        0x0 load address 0x0000000010004a74
                 0x00000000200002d8                . = ALIGN (0x4)
                 0x00000000200002d8                __bss_start__ = .
                 0x00000000200002d8                __tls_base = .
@@ -3126,7 +3125,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  *(.tcommon)
                 0x00000000200002d8                __tls_end = .
 
-.bss            0x00000000200002d8      0x400 load address 0x00000000100049f4
+.bss            0x00000000200002d8      0x400 load address 0x0000000010004a74
                 0x00000000200002d8                . = ALIGN (0x4)
                 0x00000000200002d8                __tbss_end = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
@@ -3166,26 +3165,26 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x00000000200006d8                . = ALIGN (0x4)
                 0x00000000200006d8                __bss_end__ = .
 
-.heap           0x00000000200006d8      0x800 load address 0x00000000100049f4
+.heap           0x00000000200006d8      0x800 load address 0x0000000010004a74
                 0x00000000200006d8                __end__ = .
                 0x00000000200006d8                end = __end__
  *(.heap*)
  .heap          0x00000000200006d8      0x800 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
                 0x0000000020040000                __HeapLimit = (ORIGIN (RAM) + LENGTH (RAM))
 
-.scratch_x      0x0000000020040000        0x0 load address 0x00000000100049f4
+.scratch_x      0x0000000020040000        0x0 load address 0x0000000010004a74
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x00000000100049f4                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x0000000010004a74                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x00000000100049f4
+.scratch_y      0x0000000020041000        0x0 load address 0x0000000010004a74
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x00000000100049f4                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x0000000010004a74                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .stack1_dummy   0x0000000020040000      0x800
  *(.stack1*)
@@ -3195,9 +3194,9 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 
-.flash_end      0x00000000100049f4        0x0
+.flash_end      0x0000000010004a74        0x0
  *(.embedded_end_block*)
-                0x00000000100049f4                PROVIDE (__flash_binary_end = .)
+                0x0000000010004a74                PROVIDE (__flash_binary_end = .)
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -3422,124 +3421,124 @@ LOAD linker stubs
                                          0x4f (size before relaxing)
  .comment       0x00000000000000a7       0x5a /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o
 
-.debug_info     0x0000000000000000    0x2543d
- .debug_info    0x0000000000000000      0xc54 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
- .debug_info    0x0000000000000c54     0x245e CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_info    0x00000000000030b2      0xa6d CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_info    0x0000000000003b1f      0xa39 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_info    0x0000000000004558      0x3dd CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_info    0x0000000000004935      0x242 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_info    0x0000000000004b77     0x2209 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_info    0x0000000000006d80       0x26 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
- .debug_info    0x0000000000006da6      0x189 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_info    0x0000000000006f2f     0x2a90 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_info    0x00000000000099bf     0x520e CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
- .debug_info    0x000000000000ebcd     0x2a9f CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_info    0x000000000001166c     0x1932 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
- .debug_info    0x0000000000012f9e     0x260a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_info    0x00000000000155a8      0x4e2 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_info    0x0000000000015a8a      0x242 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_info    0x0000000000015ccc      0xd32 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_info    0x00000000000169fe      0x1c5 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_info    0x0000000000016bc3      0x208 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_info    0x0000000000016dcb      0x7c4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_info    0x000000000001758f      0x6eb CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_info    0x0000000000017c7a       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
- .debug_info    0x0000000000017c9c       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
- .debug_info    0x0000000000017cbe       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
- .debug_info    0x0000000000017ce0      0xaaa CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_info    0x000000000001878a       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
- .debug_info    0x00000000000187ac       0x26 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
- .debug_info    0x00000000000187d2       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
- .debug_info    0x00000000000187f4      0xab0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_info    0x00000000000192a4       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
- .debug_info    0x00000000000192c6      0xe1b CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
- .debug_info    0x000000000001a0e1       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
- .debug_info    0x000000000001a103      0x2cb CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_info    0x000000000001a3ce     0x2712 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_info    0x000000000001cae0       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
- .debug_info    0x000000000001cb02     0x1411 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_info    0x000000000001df13     0x253b CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_info    0x000000000002044e     0x14df CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .debug_info    0x000000000002192d     0x1f04 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
- .debug_info    0x0000000000023831     0x1273 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
- .debug_info    0x0000000000024aa4       0x26 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_info    0x0000000000024aca      0x973 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_info     0x0000000000000000    0x2583f
+ .debug_info    0x0000000000000000     0x1056 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
+ .debug_info    0x0000000000001056     0x245e CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_info    0x00000000000034b4      0xa6d CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_info    0x0000000000003f21      0xa39 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_info    0x000000000000495a      0x3dd CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_info    0x0000000000004d37      0x242 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_info    0x0000000000004f79     0x2209 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_info    0x0000000000007182       0x26 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+ .debug_info    0x00000000000071a8      0x189 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_info    0x0000000000007331     0x2a90 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_info    0x0000000000009dc1     0x520e CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
+ .debug_info    0x000000000000efcf     0x2a9f CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_info    0x0000000000011a6e     0x1932 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+ .debug_info    0x00000000000133a0     0x260a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_info    0x00000000000159aa      0x4e2 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_info    0x0000000000015e8c      0x242 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_info    0x00000000000160ce      0xd32 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_info    0x0000000000016e00      0x1c5 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_info    0x0000000000016fc5      0x208 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_info    0x00000000000171cd      0x7c4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_info    0x0000000000017991      0x6eb CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_info    0x000000000001807c       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+ .debug_info    0x000000000001809e       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+ .debug_info    0x00000000000180c0       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+ .debug_info    0x00000000000180e2      0xaaa CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_info    0x0000000000018b8c       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+ .debug_info    0x0000000000018bae       0x26 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+ .debug_info    0x0000000000018bd4       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+ .debug_info    0x0000000000018bf6      0xab0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_info    0x00000000000196a6       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+ .debug_info    0x00000000000196c8      0xe1b CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+ .debug_info    0x000000000001a4e3       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+ .debug_info    0x000000000001a505      0x2cb CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_info    0x000000000001a7d0     0x2712 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_info    0x000000000001cee2       0x22 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_info    0x000000000001cf04     0x1411 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_info    0x000000000001e315     0x253b CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_info    0x0000000000020850     0x14df CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+ .debug_info    0x0000000000021d2f     0x1f04 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+ .debug_info    0x0000000000023c33     0x1273 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+ .debug_info    0x0000000000024ea6       0x26 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x0000000000024ecc      0x973 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_abbrev   0x0000000000000000     0x6499
- .debug_abbrev  0x0000000000000000      0x2c7 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
- .debug_abbrev  0x00000000000002c7      0x4b6 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_abbrev  0x000000000000077d      0x259 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_abbrev  0x00000000000009d6      0x2e6 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_abbrev  0x0000000000000cbc      0x1de CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_abbrev  0x0000000000000e9a      0x1b2 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_abbrev  0x000000000000104c      0x591 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_abbrev  0x00000000000015dd       0x14 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
- .debug_abbrev  0x00000000000015f1      0x108 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_abbrev  0x00000000000016f9      0x424 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_abbrev  0x0000000000001b1d      0x70a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
- .debug_abbrev  0x0000000000002227      0x4b3 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_abbrev  0x00000000000026da      0x354 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
- .debug_abbrev  0x0000000000002a2e      0x4c7 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_abbrev  0x0000000000002ef5      0x1ca CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_abbrev  0x00000000000030bf      0x141 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_abbrev  0x0000000000003200      0x317 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_abbrev  0x0000000000003517      0x118 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_abbrev  0x000000000000362f      0x16c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_abbrev  0x000000000000379b      0x20c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_abbrev  0x00000000000039a7      0x239 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_abbrev  0x0000000000003be0       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
- .debug_abbrev  0x0000000000003bf2       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
- .debug_abbrev  0x0000000000003c04       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
- .debug_abbrev  0x0000000000003c16      0x2a6 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_abbrev  0x0000000000003ebc       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
- .debug_abbrev  0x0000000000003ece       0x14 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
- .debug_abbrev  0x0000000000003ee2       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
- .debug_abbrev  0x0000000000003ef4      0x2ac CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_abbrev  0x00000000000041a0       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
- .debug_abbrev  0x00000000000041b2      0x2eb CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
- .debug_abbrev  0x000000000000449d       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
- .debug_abbrev  0x00000000000044af       0xad CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_abbrev  0x000000000000455c      0x600 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_abbrev  0x0000000000004b5c       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
- .debug_abbrev  0x0000000000004b6e      0x427 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_abbrev  0x0000000000004f95      0x667 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_abbrev  0x00000000000055fc      0x43b CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .debug_abbrev  0x0000000000005a37      0x57a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
- .debug_abbrev  0x0000000000005fb1      0x2ec CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
- .debug_abbrev  0x000000000000629d       0x14 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_abbrev  0x00000000000062b1      0x1e8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_abbrev   0x0000000000000000     0x6515
+ .debug_abbrev  0x0000000000000000      0x343 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
+ .debug_abbrev  0x0000000000000343      0x4b6 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_abbrev  0x00000000000007f9      0x259 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_abbrev  0x0000000000000a52      0x2e6 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_abbrev  0x0000000000000d38      0x1de CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_abbrev  0x0000000000000f16      0x1b2 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_abbrev  0x00000000000010c8      0x591 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_abbrev  0x0000000000001659       0x14 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+ .debug_abbrev  0x000000000000166d      0x108 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_abbrev  0x0000000000001775      0x424 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_abbrev  0x0000000000001b99      0x70a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
+ .debug_abbrev  0x00000000000022a3      0x4b3 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_abbrev  0x0000000000002756      0x354 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+ .debug_abbrev  0x0000000000002aaa      0x4c7 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_abbrev  0x0000000000002f71      0x1ca CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_abbrev  0x000000000000313b      0x141 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_abbrev  0x000000000000327c      0x317 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_abbrev  0x0000000000003593      0x118 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_abbrev  0x00000000000036ab      0x16c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_abbrev  0x0000000000003817      0x20c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_abbrev  0x0000000000003a23      0x239 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_abbrev  0x0000000000003c5c       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+ .debug_abbrev  0x0000000000003c6e       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+ .debug_abbrev  0x0000000000003c80       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+ .debug_abbrev  0x0000000000003c92      0x2a6 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_abbrev  0x0000000000003f38       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+ .debug_abbrev  0x0000000000003f4a       0x14 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+ .debug_abbrev  0x0000000000003f5e       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+ .debug_abbrev  0x0000000000003f70      0x2ac CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_abbrev  0x000000000000421c       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+ .debug_abbrev  0x000000000000422e      0x2eb CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+ .debug_abbrev  0x0000000000004519       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+ .debug_abbrev  0x000000000000452b       0xad CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_abbrev  0x00000000000045d8      0x600 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_abbrev  0x0000000000004bd8       0x12 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_abbrev  0x0000000000004bea      0x427 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_abbrev  0x0000000000005011      0x667 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_abbrev  0x0000000000005678      0x43b CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+ .debug_abbrev  0x0000000000005ab3      0x57a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+ .debug_abbrev  0x000000000000602d      0x2ec CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+ .debug_abbrev  0x0000000000006319       0x14 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x000000000000632d      0x1e8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_loc      0x0000000000000000    0x1ac99
- .debug_loc     0x0000000000000000      0x248 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
- .debug_loc     0x0000000000000248     0x2a78 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_loc     0x0000000000002cc0      0x708 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_loc     0x00000000000033c8      0x154 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_loc     0x000000000000351c       0xb5 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_loc     0x00000000000035d1     0x1bc5 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_loc     0x0000000000005196       0x4d CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_loc     0x00000000000051e3     0x1bea CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_loc     0x0000000000006dcd     0x3fc2 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
- .debug_loc     0x000000000000ad8f     0x2527 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_loc     0x000000000000d2b6     0x14e8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
- .debug_loc     0x000000000000e79e     0x2fc5 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_loc     0x0000000000011763      0x2c2 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_loc     0x0000000000011a25       0x57 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_loc     0x0000000000011a7c      0x46f CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_loc     0x0000000000011eeb       0x71 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_loc     0x0000000000011f5c       0xbc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_loc     0x0000000000012018      0x11c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_loc     0x0000000000012134       0xa7 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_loc     0x00000000000121db       0x84 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_loc     0x000000000001225f      0x10f CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_loc     0x000000000001236e      0x313 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
- .debug_loc     0x0000000000012681     0x3e5d CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_loc     0x00000000000164de      0x5b1 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_loc     0x0000000000016a8f     0x14d1 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_loc     0x0000000000017f60      0xa37 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .debug_loc     0x0000000000018997     0x11dd CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
- .debug_loc     0x0000000000019b74     0x1082 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
- .debug_loc     0x000000000001abf6       0xa3 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_loc      0x0000000000000000    0x1aef9
+ .debug_loc     0x0000000000000000      0x4a8 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
+ .debug_loc     0x00000000000004a8     0x2a78 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_loc     0x0000000000002f20      0x708 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_loc     0x0000000000003628      0x154 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_loc     0x000000000000377c       0xb5 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_loc     0x0000000000003831     0x1bc5 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_loc     0x00000000000053f6       0x4d CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_loc     0x0000000000005443     0x1bea CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_loc     0x000000000000702d     0x3fc2 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
+ .debug_loc     0x000000000000afef     0x2527 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_loc     0x000000000000d516     0x14e8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+ .debug_loc     0x000000000000e9fe     0x2fc5 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_loc     0x00000000000119c3      0x2c2 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_loc     0x0000000000011c85       0x57 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_loc     0x0000000000011cdc      0x46f CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_loc     0x000000000001214b       0x71 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_loc     0x00000000000121bc       0xbc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_loc     0x0000000000012278      0x11c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_loc     0x0000000000012394       0xa7 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_loc     0x000000000001243b       0x84 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_loc     0x00000000000124bf      0x10f CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_loc     0x00000000000125ce      0x313 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+ .debug_loc     0x00000000000128e1     0x3e5d CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_loc     0x000000000001673e      0x5b1 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_loc     0x0000000000016cef     0x14d1 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_loc     0x00000000000181c0      0xa37 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+ .debug_loc     0x0000000000018bf7     0x11dd CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+ .debug_loc     0x0000000000019dd4     0x1082 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+ .debug_loc     0x000000000001ae56       0xa3 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
 .debug_aranges  0x0000000000000000     0x10c8
  .debug_aranges
@@ -3627,203 +3626,203 @@ LOAD linker stubs
  .debug_aranges
                 0x00000000000010a8       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_ranges   0x0000000000000000     0xa100
- .debug_ranges  0x0000000000000000       0x80 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
- .debug_ranges  0x0000000000000080      0xd30 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_ranges  0x0000000000000db0       0x18 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_ranges  0x0000000000000dc8      0x440 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_ranges  0x0000000000001208       0xd8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_ranges  0x00000000000012e0       0xa8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_ranges  0x0000000000001388      0xa00 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_ranges  0x0000000000001d88       0x28 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_ranges  0x0000000000001db0     0x1728 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_ranges  0x00000000000034d8     0x1e28 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
- .debug_ranges  0x0000000000005300      0xea0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_ranges  0x00000000000061a0      0x828 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
- .debug_ranges  0x00000000000069c8      0xa60 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_ranges  0x0000000000007428       0xa0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_ranges  0x00000000000074c8       0x38 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_ranges  0x0000000000007500      0x110 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_ranges  0x0000000000007610       0x38 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_ranges  0x0000000000007648       0x58 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_ranges  0x00000000000076a0       0xb0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_ranges  0x0000000000007750       0x28 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_ranges  0x0000000000007778       0x58 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
- .debug_ranges  0x00000000000077d0       0x38 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
- .debug_ranges  0x0000000000007808      0x138 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
- .debug_ranges  0x0000000000007940       0x50 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_ranges  0x0000000000007990       0xc0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
- .debug_ranges  0x0000000000007a50      0x128 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
- .debug_ranges  0x0000000000007b78       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_ranges  0x0000000000007b88       0x48 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
- .debug_ranges  0x0000000000007bd0       0x70 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
- .debug_ranges  0x0000000000007c40       0x30 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
- .debug_ranges  0x0000000000007c70      0x4e8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_ranges  0x0000000000008158       0x20 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
- .debug_ranges  0x0000000000008178      0x120 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_ranges  0x0000000000008298      0x860 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_ranges  0x0000000000008af8      0x4a8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .debug_ranges  0x0000000000008fa0      0xac0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
- .debug_ranges  0x0000000000009a60      0x6a0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+.debug_ranges   0x0000000000000000     0xa278
+ .debug_ranges  0x0000000000000000      0x1f8 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
+ .debug_ranges  0x00000000000001f8      0xd30 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_ranges  0x0000000000000f28       0x18 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_ranges  0x0000000000000f40      0x440 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_ranges  0x0000000000001380       0xd8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_ranges  0x0000000000001458       0xa8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_ranges  0x0000000000001500      0xa00 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_ranges  0x0000000000001f00       0x28 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_ranges  0x0000000000001f28     0x1728 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_ranges  0x0000000000003650     0x1e28 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
+ .debug_ranges  0x0000000000005478      0xea0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_ranges  0x0000000000006318      0x828 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+ .debug_ranges  0x0000000000006b40      0xa60 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_ranges  0x00000000000075a0       0xa0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_ranges  0x0000000000007640       0x38 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_ranges  0x0000000000007678      0x110 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_ranges  0x0000000000007788       0x38 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_ranges  0x00000000000077c0       0x58 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_ranges  0x0000000000007818       0xb0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_ranges  0x00000000000078c8       0x28 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_ranges  0x00000000000078f0       0x58 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+ .debug_ranges  0x0000000000007948       0x38 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+ .debug_ranges  0x0000000000007980      0x138 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+ .debug_ranges  0x0000000000007ab8       0x50 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_ranges  0x0000000000007b08       0xc0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+ .debug_ranges  0x0000000000007bc8      0x128 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+ .debug_ranges  0x0000000000007cf0       0x10 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_ranges  0x0000000000007d00       0x48 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+ .debug_ranges  0x0000000000007d48       0x70 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+ .debug_ranges  0x0000000000007db8       0x30 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+ .debug_ranges  0x0000000000007de8      0x4e8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_ranges  0x00000000000082d0       0x20 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_ranges  0x00000000000082f0      0x120 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_ranges  0x0000000000008410      0x860 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_ranges  0x0000000000008c70      0x4a8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+ .debug_ranges  0x0000000000009118      0xac0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+ .debug_ranges  0x0000000000009bd8      0x6a0 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
 
-.debug_line     0x0000000000000000    0x186dd
- .debug_line    0x0000000000000000      0x5dc CMakeFiles/spi_Myself.dir/spi_Myself.c.o
- .debug_line    0x00000000000005dc     0x1bb8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_line    0x0000000000002194      0x221 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_line    0x00000000000023b5      0x8a2 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_line    0x0000000000002c57      0x431 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_line    0x0000000000003088      0x30e CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_line    0x0000000000003396     0x162a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_line    0x00000000000049c0       0x8a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
- .debug_line    0x0000000000004a4a      0x28c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_line    0x0000000000004cd6     0x1a67 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_line    0x000000000000673d     0x2f49 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
- .debug_line    0x0000000000009686     0x1cc9 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_line    0x000000000000b34f     0x10d9 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
- .debug_line    0x000000000000c428     0x1bc8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_line    0x000000000000dff0      0x47d CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_line    0x000000000000e46d      0x298 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_line    0x000000000000e705      0x33c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_line    0x000000000000ea41      0x2c3 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_line    0x000000000000ed04      0x269 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_line    0x000000000000ef6d      0x499 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_line    0x000000000000f406      0x4a1 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_line    0x000000000000f8a7      0x137 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
- .debug_line    0x000000000000f9de      0x2dc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
- .debug_line    0x000000000000fcba      0x42d CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
- .debug_line    0x00000000000100e7      0x3cb CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_line    0x00000000000104b2      0x6a8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
- .debug_line    0x0000000000010b5a       0x9a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
- .debug_line    0x0000000000010bf4      0x3e7 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
- .debug_line    0x0000000000010fdb      0x320 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_line    0x00000000000112fb      0x1ce CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
- .debug_line    0x00000000000114c9      0x48b CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
- .debug_line    0x0000000000011954       0xc4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
- .debug_line    0x0000000000011a18      0x168 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_line    0x0000000000011b80     0x17d9 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_line    0x0000000000013359       0xc9 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
- .debug_line    0x0000000000013422      0x7fc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_line    0x0000000000013c1e     0x143c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_line    0x000000000001505a      0xca1 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .debug_line    0x0000000000015cfb     0x153a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
- .debug_line    0x0000000000017235     0x1286 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
- .debug_line    0x00000000000184bb       0x60 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_line    0x000000000001851b      0x1c2 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_line     0x0000000000000000    0x188c8
+ .debug_line    0x0000000000000000      0x7c7 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
+ .debug_line    0x00000000000007c7     0x1bb8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_line    0x000000000000237f      0x221 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_line    0x00000000000025a0      0x8a2 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_line    0x0000000000002e42      0x431 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_line    0x0000000000003273      0x30e CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_line    0x0000000000003581     0x162a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_line    0x0000000000004bab       0x8a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+ .debug_line    0x0000000000004c35      0x28c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_line    0x0000000000004ec1     0x1a67 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_line    0x0000000000006928     0x2f49 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
+ .debug_line    0x0000000000009871     0x1cc9 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_line    0x000000000000b53a     0x10d9 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+ .debug_line    0x000000000000c613     0x1bc8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_line    0x000000000000e1db      0x47d CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_line    0x000000000000e658      0x298 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_line    0x000000000000e8f0      0x33c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_line    0x000000000000ec2c      0x2c3 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_line    0x000000000000eeef      0x269 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_line    0x000000000000f158      0x499 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_line    0x000000000000f5f1      0x4a1 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_line    0x000000000000fa92      0x137 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+ .debug_line    0x000000000000fbc9      0x2dc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+ .debug_line    0x000000000000fea5      0x42d CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+ .debug_line    0x00000000000102d2      0x3cb CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_line    0x000000000001069d      0x6a8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+ .debug_line    0x0000000000010d45       0x9a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+ .debug_line    0x0000000000010ddf      0x3e7 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+ .debug_line    0x00000000000111c6      0x320 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_line    0x00000000000114e6      0x1ce CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+ .debug_line    0x00000000000116b4      0x48b CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+ .debug_line    0x0000000000011b3f       0xc4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+ .debug_line    0x0000000000011c03      0x168 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_line    0x0000000000011d6b     0x17d9 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_line    0x0000000000013544       0xc9 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_line    0x000000000001360d      0x7fc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_line    0x0000000000013e09     0x143c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_line    0x0000000000015245      0xca1 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+ .debug_line    0x0000000000015ee6     0x153a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+ .debug_line    0x0000000000017420     0x1286 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+ .debug_line    0x00000000000186a6       0x60 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000000000018706      0x1c2 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_str      0x0000000000000000     0x54d7
- .debug_str     0x0000000000000000      0x5e1 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
-                                        0x658 (size before relaxing)
- .debug_str     0x00000000000005e1      0x75e CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+.debug_str      0x0000000000000000     0x54c5
+ .debug_str     0x0000000000000000      0x6d9 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
+                                        0x74d (size before relaxing)
+ .debug_str     0x00000000000006d9      0x70c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
                                         0xc88 (size before relaxing)
- .debug_str     0x0000000000000d3f      0x445 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_str     0x0000000000000de5      0x445 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
                                         0x645 (size before relaxing)
- .debug_str     0x0000000000001184      0x1d2 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_str     0x000000000000122a      0x1d2 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/hardware_claim/claim.c.o
                                         0x3ad (size before relaxing)
- .debug_str     0x0000000000001356       0xcf CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_str     0x00000000000013fc       0xcf CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
                                         0x351 (size before relaxing)
- .debug_str     0x0000000000001425       0x65 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_str     0x00000000000014cb       0x65 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
                                         0x273 (size before relaxing)
- .debug_str     0x000000000000148a      0x471 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_str     0x0000000000001530      0x471 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
                                         0xa43 (size before relaxing)
- .debug_str     0x00000000000018fb       0x5a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+ .debug_str     0x00000000000019a1       0x5a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
                                          0xaa (size before relaxing)
- .debug_str     0x0000000000001955       0x5f CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_str     0x00000000000019fb       0x5f CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/lock_core.c.o
                                         0x274 (size before relaxing)
- .debug_str     0x00000000000019b4      0x252 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_str     0x0000000000001a5a      0x252 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
                                         0x7ad (size before relaxing)
- .debug_str     0x0000000000001c06      0x9ad CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
+ .debug_str     0x0000000000001cac      0x9ad CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
                                        0x154a (size before relaxing)
- .debug_str     0x00000000000025b3      0x1e5 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_str     0x0000000000002659      0x1e5 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
                                         0x9cf (size before relaxing)
- .debug_str     0x0000000000002798      0x753 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+ .debug_str     0x000000000000283e      0x749 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
                                         0xbe0 (size before relaxing)
- .debug_str     0x0000000000002eeb      0x3e7 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_str     0x0000000000002f87      0x3e7 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
                                         0x94f (size before relaxing)
- .debug_str     0x00000000000032d2       0x78 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_str     0x000000000000336e       0x78 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
                                         0x478 (size before relaxing)
- .debug_str     0x000000000000334a       0xcc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_str     0x00000000000033e6       0xcc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
                                         0x2b5 (size before relaxing)
- .debug_str     0x0000000000003416      0x172 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_str     0x00000000000034b2      0x172 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
                                         0x71a (size before relaxing)
- .debug_str     0x0000000000003588       0x78 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_str     0x0000000000003624       0x78 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
                                         0x26a (size before relaxing)
- .debug_str     0x0000000000003600       0xed CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_str     0x000000000000369c       0xed CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
                                         0x2c0 (size before relaxing)
- .debug_str     0x00000000000036ed      0x2ae CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_str     0x0000000000003789      0x2ae CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
                                         0x79a (size before relaxing)
- .debug_str     0x000000000000399b       0x65 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_str     0x0000000000003a37       0x65 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
                                         0x483 (size before relaxing)
- .debug_str     0x0000000000003a00       0x4a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+ .debug_str     0x0000000000003a9c       0x4a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
                                          0xa6 (size before relaxing)
- .debug_str     0x0000000000003a4a       0x4d CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+ .debug_str     0x0000000000003ae6       0x4d CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
                                          0xa9 (size before relaxing)
- .debug_str     0x0000000000003a97       0x4f CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+ .debug_str     0x0000000000003b33       0x4f CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
                                          0xab (size before relaxing)
- .debug_str     0x0000000000003ae6       0xbe CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_str     0x0000000000003b82       0xbe CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
                                         0x698 (size before relaxing)
- .debug_str     0x0000000000003ba4       0x55 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+ .debug_str     0x0000000000003c40       0x55 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
                                          0xb1 (size before relaxing)
- .debug_str     0x0000000000003bf9       0x53 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+ .debug_str     0x0000000000003c95       0x53 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
                                          0xaf (size before relaxing)
- .debug_str     0x0000000000003c4c       0x4d CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+ .debug_str     0x0000000000003ce8       0x4d CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
                                          0xa9 (size before relaxing)
- .debug_str     0x0000000000003c99       0x95 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_str     0x0000000000003d35       0x95 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
                                         0x69d (size before relaxing)
- .debug_str     0x0000000000003d2e       0x53 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+ .debug_str     0x0000000000003dca       0x53 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
                                          0xaf (size before relaxing)
- .debug_str     0x0000000000003d81       0xd6 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+ .debug_str     0x0000000000003e1d       0xd6 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
                                         0x85d (size before relaxing)
- .debug_str     0x0000000000003e57       0x4a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+ .debug_str     0x0000000000003ef3       0x4a CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
                                          0xa6 (size before relaxing)
- .debug_str     0x0000000000003ea1      0x24c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_str     0x0000000000003f3d      0x24c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
                                         0x415 (size before relaxing)
- .debug_str     0x00000000000040ed      0x1bc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_str     0x0000000000004189      0x1bc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
                                         0x7eb (size before relaxing)
- .debug_str     0x00000000000042a9       0x3e CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_str     0x0000000000004345       0x3e CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
                                          0x9a (size before relaxing)
- .debug_str     0x00000000000042e7      0x317 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_str     0x0000000000004383      0x317 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
                                         0xb54 (size before relaxing)
- .debug_str     0x00000000000045fe      0x2d4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_str     0x000000000000469a      0x2d4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
                                        0x11a6 (size before relaxing)
- .debug_str     0x00000000000048d2      0x3c8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+ .debug_str     0x000000000000496e      0x3c8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
                                         0xec9 (size before relaxing)
- .debug_str     0x0000000000004c9a      0x451 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+ .debug_str     0x0000000000004d36      0x451 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
                                         0xca4 (size before relaxing)
- .debug_str     0x00000000000050eb      0x21b CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+ .debug_str     0x0000000000005187      0x16d CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
                                         0x733 (size before relaxing)
- .debug_str     0x0000000000005306       0x97 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_str     0x00000000000052f4       0x97 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
                                          0xa3 (size before relaxing)
- .debug_str     0x000000000000539d      0x13a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+ .debug_str     0x000000000000538b      0x13a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
                                         0x5c2 (size before relaxing)
 
-.debug_frame    0x0000000000000000     0x1fd4
- .debug_frame   0x0000000000000000       0x58 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
- .debug_frame   0x0000000000000058      0x32c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_frame   0x0000000000000384       0x44 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_frame   0x00000000000003c8       0xa4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_frame   0x000000000000046c       0xa4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_frame   0x0000000000000510       0x30 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_frame   0x0000000000000540      0x1bc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_frame   0x00000000000006fc       0x20 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_frame   0x000000000000071c      0x1e8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_frame   0x0000000000000904      0x2d4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
- .debug_frame   0x0000000000000bd8      0x2d4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_frame   0x0000000000000eac       0xec CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
- .debug_frame   0x0000000000000f98      0x204 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_frame   0x000000000000119c       0x40 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_frame   0x00000000000011dc       0x40 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_frame   0x000000000000121c       0x9c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_frame   0x00000000000012b8       0x40 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_frame   0x00000000000012f8       0x70 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_frame   0x0000000000001368       0x84 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_frame   0x00000000000013ec       0x2c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_frame   0x0000000000001418       0x2c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_frame   0x0000000000001444       0x28 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_frame   0x000000000000146c       0x84 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
- .debug_frame   0x00000000000014f0      0x1e8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_frame   0x00000000000016d8      0x178 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_frame   0x0000000000001850      0x2a4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_frame   0x0000000000001af4      0x154 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .debug_frame   0x0000000000001c48      0x200 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
- .debug_frame   0x0000000000001e48      0x164 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
- .debug_frame   0x0000000000001fac       0x28 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_frame    0x0000000000000000     0x1fdc
+ .debug_frame   0x0000000000000000       0x60 CMakeFiles/spi_Myself.dir/spi_Myself.c.o
+ .debug_frame   0x0000000000000060      0x32c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_frame   0x000000000000038c       0x44 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_frame   0x00000000000003d0       0xa4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_frame   0x0000000000000474       0xa4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_frame   0x0000000000000518       0x30 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_frame   0x0000000000000548      0x1bc CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_frame   0x0000000000000704       0x20 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_frame   0x0000000000000724      0x1e8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_frame   0x000000000000090c      0x2d4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/common/pico_time/time.c.o
+ .debug_frame   0x0000000000000be0      0x2d4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_frame   0x0000000000000eb4       0xec CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+ .debug_frame   0x0000000000000fa0      0x204 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_frame   0x00000000000011a4       0x40 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_frame   0x00000000000011e4       0x40 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_frame   0x0000000000001224       0x9c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_frame   0x00000000000012c0       0x40 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_frame   0x0000000000001300       0x70 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_frame   0x0000000000001370       0x84 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_frame   0x00000000000013f4       0x2c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_frame   0x0000000000001420       0x2c CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_frame   0x000000000000144c       0x28 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_frame   0x0000000000001474       0x84 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+ .debug_frame   0x00000000000014f8      0x1e8 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_frame   0x00000000000016e0      0x178 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_frame   0x0000000000001858      0x2a4 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_frame   0x0000000000001afc      0x154 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+ .debug_frame   0x0000000000001c50      0x200 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+ .debug_frame   0x0000000000001e50      0x164 CMakeFiles/spi_Myself.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+ .debug_frame   0x0000000000001fb4       0x28 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)

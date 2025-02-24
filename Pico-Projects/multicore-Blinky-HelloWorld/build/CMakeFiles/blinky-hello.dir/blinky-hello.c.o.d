@@ -55,7 +55,7 @@ CMakeFiles/blinky-hello.dir/blinky-hello.c.o: \
  /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
  /home/adinata26/PICO/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /home/adinata26/PICO/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
- /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h \
  /home/adinata26/PICO/pico-sdk/src/common/pico_sync/include/pico/sync.h \
  /home/adinata26/PICO/pico-sdk/src/common/pico_sync/include/pico/sem.h \

@@ -1,6 +1,4 @@
 /home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/SPI-toMyself/build/CMakeFiles/spi_Myself.dir
-/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/SPI-toMyself/build/CMakeFiles/picotoolForceReconfigure.dir
-/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/SPI-toMyself/build/CMakeFiles/picotoolBuild.dir
 /home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/SPI-toMyself/build/CMakeFiles/edit_cache.dir
 /home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/SPI-toMyself/build/CMakeFiles/rebuild_cache.dir
 /home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/SPI-toMyself/build/pico-sdk/CMakeFiles/edit_cache.dir

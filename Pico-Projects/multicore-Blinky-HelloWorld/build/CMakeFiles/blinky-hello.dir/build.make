@@ -842,24 +842,360 @@ CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_std
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/blinky-hello.dir/flags.make
-CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
-CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/blinky-hello.dir/flags.make
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/blinky-hello.dir/flags.make
 CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/blinky-hello.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -MF CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o.d -o CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
 CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -928,7 +1264,31 @@ blinky__hello_OBJECTS = \
 "CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o" \
 "CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o" \
 "CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o" \
-"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o" \
+"CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o" \
 "CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
 
 # External object files for target blinky-hello
@@ -990,13 +1350,37 @@ blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/r
 blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 blinky-hello.elf: CMakeFiles/blinky-hello.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
 blinky-hello.elf: CMakeFiles/blinky-hello.dir/build.make
 blinky-hello.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 blinky-hello.elf: /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 blinky-hello.elf: CMakeFiles/blinky-hello.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Linking CXX executable blinky-hello.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Linking CXX executable blinky-hello.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/blinky-hello.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/blinky-hello.elf > blinky-hello.dis
 	/usr/bin/arm-none-eabi-objdump -d /home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/multicore-Blinky-HelloWorld/build/blinky-hello.elf >> blinky-hello.dis

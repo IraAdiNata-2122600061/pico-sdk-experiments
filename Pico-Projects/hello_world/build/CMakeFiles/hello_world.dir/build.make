@@ -842,19 +842,355 @@ CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdi
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/hello_world.dir/flags.make
-CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
-CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -c /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/hello_world.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 # Object files for target hello_world
 hello_world_OBJECTS = \
@@ -914,7 +1250,31 @@ hello_world_OBJECTS = \
 "CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o" \
 "CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o" \
 "CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o" \
-"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o" \
+"CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
 
 # External object files for target hello_world
 hello_world_EXTERNAL_OBJECTS =
@@ -975,12 +1335,36 @@ hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2
 hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/tusb.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+hello_world.elf: CMakeFiles/hello_world.dir/home/adinata26/PICO/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 hello_world.elf: CMakeFiles/hello_world.dir/build.make
 hello_world.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 hello_world.elf: /home/adinata26/PICO/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 hello_world.elf: CMakeFiles/hello_world.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Linking CXX executable hello_world.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Linking CXX executable hello_world.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello_world.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/hello_world.elf > hello_world.dis
 	/usr/bin/arm-none-eabi-objdump -d /home/adinata26/Downloads/pico-sdk-experiments/Pico-Projects/hello_world/build/hello_world.elf >> hello_world.dis

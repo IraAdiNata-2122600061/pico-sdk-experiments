@@ -17,3 +17,5 @@ target_link_libraries(blinky-hello pico_stdlib pico_multicore)
 
 # Hasilkan file .bin/.hex/.uf2
 pico_add_extra_outputs(blinky-hello)
+pico_enable_stdio_usb(blinky-hello 1)  # AKTIFKAN USB Serial
+pico_enable_stdio_uart(blinky-hello 0) # MATIKAN UART (opsional)
